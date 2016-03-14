@@ -1,0 +1,5 @@
+﻿@model MvcApplication17.Models.PersonViewModel
+
+<form method="POST" action="/people/edit">
+    @{Html.RenderPartial("PersonFormPartial", Model.Person);}
+</form>

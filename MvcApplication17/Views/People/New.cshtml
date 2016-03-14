@@ -1,0 +1,4 @@
+﻿@using MvcApplication17.Controllers
+<form method="POST" action="/people/new">
+    @{ Html.RenderPartial("PersonFormPartial", new Person()); }
+</form>
